@@ -2,7 +2,6 @@ import json
 
 DATA = 'data.json'
 
-
 class Book:
     def __init__(self,
                  title: str,
@@ -24,8 +23,8 @@ class Book:
 
 
 
-
 def show_lib():
+    """показывает все книги из библиотеки"""
     with open(DATA, 'r', encoding='utf-8') as file:
         loaded_data = json.load(file)
     print()
@@ -38,6 +37,7 @@ def show_lib():
 
 
 def search_book():
+    """поиск книг по одному из фильтров"""
     with open(DATA, 'r', encoding='utf-8') as file:
         loaded_data = json.load(file)
 
@@ -75,6 +75,7 @@ def search_book():
 
 
 def book_status():
+    """изменяет статус книги с "В наличии" на "Выдана" или наоборот"""
     with open(DATA, 'r+', encoding='utf-8') as file:
         loaded_data = json.load(file)
         file.seek(0)
@@ -95,6 +96,7 @@ def book_status():
 
 
 def add_book():
+    """добавление новой книги в библиотеку"""
     title = input("Введите название книги: ").capitalize()
     author = input("Введите имя автора: ").title()
     year = input("Введите год выпуска: ")
@@ -118,6 +120,7 @@ def add_book():
 
 
 def remove_book():
+    """удаляет книгу из библиотеки"""
     with open(DATA, 'r+', encoding='utf-8') as file:
         loaded_data = json.load(file)
         file.seek(0)
