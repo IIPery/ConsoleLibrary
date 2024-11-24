@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "title": "Book1",
+        "author": "Author A. A.",
+        "year": "1111",
+        "status": "Выдан"
+    },
+    {
+        "id": "2",
+        "title": "Book2",
+        "author": "Author2",
+        "year": "2222",
+        "status": "В наличии"
+    },
+    {
+        "id": "4",
+        "title": "Book4",
+        "author": "Author4",
+        "year": "4444",
+        "status": "В наличии"
+    },
+    {
+        "id": "5",
+        "title": "Книга хорошая",
+        "author": "Лучший Автор",
+        "year": "1970",
+        "status": "В наличии"
+    },
+    {
+        "id": "6",
+        "title": "Очень хорошая книга",
+        "author": "Какой То Автор",
+        "year": "1670",
+        "status": "В наличии"
+    },
+    {
+        "id": "7",
+        "title": "Книга8",
+        "author": "Автор1",
+        "year": "1999",
+        "status": "Выдан"
+    },
+    {
+        "id": "8",
+        "title": "Book1",
+        "author": "Author7",
+        "year": "0000",
+        "status": "В наличии"
+    },
+    {
+        "id": "9",
+        "title": "Книга книга",
+        "author": "Автор Автор Автор",
+        "year": "1111",
+        "status": "В наличии"
+    }
+]
